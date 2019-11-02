@@ -1,3 +1,4 @@
-#RDP Client
-sudo apt-get update
-sudo apt-get upgrade -y
+#! /bin/bash
+apt-get update
+apt-get upgrade -y
+echo done > ~/done.txt
